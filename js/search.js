@@ -4,7 +4,6 @@ import { UpdateUi } from "./index.js"
 
 let searchInput = document.querySelector("input")
 let selectEl = document.getElementById("select")
-let countriesEl = document.querySelector(".countries")
 
 UpdateUi(countries)
 
@@ -37,12 +36,3 @@ selectEl.addEventListener('change', (e) => {
     let res = find(select)
     UpdateUi(res)
 })
-
-countriesEl.addEventListener("click" ,(e) => {
-    let il = e.target.value
-
-    window.location.href += '/detailst.html'
-})
-
-console.log(window.location,href);
-
