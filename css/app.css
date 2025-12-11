@@ -1,0 +1,79 @@
+
+
+:root {
+  --bg-white-color: #ffffff;
+  --bg-pink-color: #fafafa;
+  --text-black-color: #111517;
+  --input-placeholder-color: #848484;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+img {
+  margin: 0;
+}
+
+.dark-mode {
+  --bg-white-color: #2b3844;
+  --bg-pink-color: #202c36;
+  --text-black-color: #ffffff;
+  --input-placeholder-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1340px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  transition: all 0.5s;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: var(--bg-pink-color);
+}
+
+img{
+    width: 100%;
+    max-width: 560px;
+    height: 100%;
+    max-height: 401px;
+    border-radius: 10px;
+}
+.details{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    color: var(--text-black-color);
+}
+.link-box{
+    margin: 90px ;
+}
+.link-box a{
+    color: var(--text-black-color);
+}
+.box1{
+    display: flex;
+    margin-top: 23px;
+    margin-bottom: 68px;
+    gap: 141px;
+    line-height: 32px;
+}
+p span{
+    font-size: 14px;
+    font-weight: 300;
+}
