@@ -7,7 +7,6 @@ let id = Number(arr[arr.length - 1]);
 
 let findArr = countries.find((item) => item.id === id);
 
-console.log(findArr);
 
 detels.innerHTML = `
   <img src="${findArr.flag}" alt="${findArr.name}" />
